@@ -1,0 +1,51 @@
+Exception handling atau penanganan eksepsi adalah proses penanganan dan pengendalian kesalahan atau error pada saat
+program dijalankan. Dalam bahasa pemrograman Java, setiap kali terjadi kesalahan pada saat program dijalankan, maka
+sebuah objek exception akan dihasilkan. Objek exception ini dapat di-handle atau ditangani dengan menggunakan konsep
+exception handling di Java.
+
+Pada dasarnya, exception handling di Java dilakukan dengan menggunakan blok try-catch-finally. Blok try digunakan
+untuk mengeksekusi kode yang berpotensi menghasilkan exception, sedangkan blok catch digunakan untuk menangkap
+exception dan mengambil tindakan yang sesuai. Blok finally digunakan untuk mengeksekusi kode setelah blok try atau
+catch selesai dieksekusi, terlepas dari apakah terjadi exception atau tidak.
+
+Dalam contoh di atas, kita menggunakan blok try untuk mengeksekusi operasi pembagian dengan nol, yang akan menghasilkan
+ exception ArithmeticException. Blok catch digunakan untuk menangkap exception dan menampilkan pesan kesalahan yang
+ dihasilkan. Blok finally digunakan untuk menampilkan pesan yang akan dieksekusi setelah blok try atau catch selesai
+ dieksekusi.
+
+Selain menggunakan blok try-catch-finally, kita juga dapat menggunakan beberapa jenis exception handling lainnya di
+Java, seperti:
+
+Throws: digunakan untuk melempar exception ke method yang memanggil method yang menghasilkan exception tersebut.
+Throw: digunakan untuk melempar exception secara langsung.
+
+Dalam contoh di atas, kita menggunakan throws untuk melempar FileNotFoundException ke method yang memanggil main.
+Sedangkan pada method metodePembagian, kita menggunakan throw untuk melempar exception secara langsung jika terjadi
+pembagian dengan nol.
+
+Exception handling sangat penting dalam pemrograman Java, karena dapat membantu kita untuk menangani kesalahan atau
+error dengan lebih baik dan mengurangi kemungkinan terjadinya kegagalan dalam menjalankan program.
+
+Di Java, terdapat beberapa jenis exception yang umumnya digunakan untuk menangani kesalahan atau error pada saat
+program dijalankan. Berikut adalah beberapa jenis exception di Java:
+
+Checked Exception
+Checked exception adalah jenis exception yang terjadi pada saat kompilasi dan wajib untuk ditangani dengan menggunakan
+blok try-catch atau throws. Contoh dari checked exception adalah FileNotFoundException, SQLException, dan IOException.
+Unchecked Exception
+Unchecked exception adalah jenis exception yang terjadi pada saat program dijalankan dan tidak wajib untuk ditangani
+dengan menggunakan blok try-catch atau throws. Contoh dari unchecked exception adalah NullPointerException,
+ArrayIndexOutOfBoundsException, dan ArithmeticException.
+Error
+Error adalah jenis exception yang terjadi pada saat terjadi kesalahan di luar kendali program, seperti kegagalan sistem
+atau kehabisan memori. Error tidak dapat ditangani dengan menggunakan blok try-catch atau throws. Contoh dari error
+adalah OutOfMemoryError dan StackOverflowError.
+Runtime Exception
+Runtime exception adalah jenis exception yang merupakan turunan dari unchecked exception dan terjadi pada saat program
+dijalankan. Contoh dari runtime exception adalah NullPointerException, ArrayIndexOutOfBoundsException, dan
+ArithmeticException.
+Ketika menangani exception di Java, sebaiknya kita mengetahui jenis exception yang terjadi agar dapat menentukan
+tindakan yang tepat untuk menanganinya. Penggunaan blok try-catch atau throws tergantung pada jenis exception yang
+terjadi. Sebagai contoh, jika terjadi checked exception, maka kita harus menangani exception tersebut dengan
+menggunakan blok try-catch atau throws. Sedangkan jika terjadi unchecked exception, kita dapat membiarkan program
+berhenti dan menampilkan pesan kesalahan atau memperbaiki kode program agar tidak menghasilkan exception.

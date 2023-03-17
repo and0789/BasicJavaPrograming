@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3828c8fa-e7e6-460c-b789-e8139f3a50ed" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/Exercise_12_15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex1214.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hangman.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_11_RemoveText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_12_ReformatJavaSourceCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_13_CountCharacterWordAndLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_14_ScoresInATextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_15_WriteAndReadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_16_ReplaceText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_17_HangmanGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/replaceText.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Salary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_23_ProcessScoreInATextFileOnTheWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_24_CreateLargeDataset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/exercise/Exercise_12_25_ProcessLargeDataset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,33 +61,7 @@
       <recent name="$PROJECT_DIR$/src/chapter12_exception_handling_and_text_io/listing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise_12_17_HangmanGame">
-    <configuration name="Exercise_12_11_RemoveText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.exercise.Exercise_12_11_RemoveText" />
-      <module name="JavaBasicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter12_exception_handling_and_text_io.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise_12_14_ScoresInATextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.exercise.Exercise_12_14_ScoresInATextFile" />
-      <module name="JavaBasicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter12_exception_handling_and_text_io.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Exercise_12_25_ProcessLargeDataset">
     <configuration name="Exercise_12_15_WriteAndReadData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.exercise.Exercise_12_15_WriteAndReadData" />
       <module name="JavaBasicProgramming" />
@@ -123,12 +88,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listing12_18_WebCrawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.listing.Listing12_18_WebCrawler" />
+    <configuration name="Exercise_12_23_ProcessScoreInATextFileOnTheWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.exercise.Exercise_12_23_ProcessScoreInATextFileOnTheWeb" />
       <module name="JavaBasicProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter12_exception_handling_and_text_io.listing.*" />
+          <option name="PATTERN" value="chapter12_exception_handling_and_text_io.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise_12_24_CreateLargeDataset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.exercise.Exercise_12_24_CreateLargeDataset" />
+      <module name="JavaBasicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter12_exception_handling_and_text_io.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise_12_25_ProcessLargeDataset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12_exception_handling_and_text_io.exercise.Exercise_12_25_ProcessLargeDataset" />
+      <module name="JavaBasicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter12_exception_handling_and_text_io.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise_12_25_ProcessLargeDataset" />
+        <item itemvalue="Application.Exercise_12_24_CreateLargeDataset" />
+        <item itemvalue="Application.Exercise_12_23_ProcessScoreInATextFileOnTheWeb" />
         <item itemvalue="Application.Exercise_12_17_HangmanGame" />
         <item itemvalue="Application.Exercise_12_15_WriteAndReadData" />
-        <item itemvalue="Application.Exercise_12_14_ScoresInATextFile" />
-        <item itemvalue="Application.Exercise_12_11_RemoveText" />
-        <item itemvalue="Application.Listing12_18_WebCrawler" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678931912757</updated>
       <workItem from="1678931913754" duration="9583000" />
-      <workItem from="1679061672623" duration="7258000" />
+      <workItem from="1679061672623" duration="10630000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1678936783716</created>
@@ -164,15 +155,26 @@
       <option name="project" value="LOCAL" />
       <updated>1678936783716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1679069260261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679069260261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
